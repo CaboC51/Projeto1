@@ -1,4 +1,26 @@
-*{margin: 0;  padding: 0;}
-body{
-		background: red;
+*{margin: 0;  padding: 0}
+header{
+		background: #7B68EE;
+		height: 150px;
+		align-items: center;
+		display: flex;
+		justify-content: space-around;
+		border: 1px solid black;
+}
+header nav ul{
+		display: flex;
+}
+header nav ul li{
+		list-style:none;
+		margin: 10px;
+}
+header nav ul li a{
+		text-decoration: none;
+		color: #FFDEAD;
+}
+header nav ul li a:hover{
+		color: yellow;
+}
+header img{
+		height: 100%;
 }
