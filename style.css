@@ -24,3 +24,7 @@ header nav ul li a:hover{
 header img{
 		height: 100%;
 }
+#banner{
+	height: 500px;
+	background: #FFDEAD;
+}
