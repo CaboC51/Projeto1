@@ -5,7 +5,6 @@ header{
 	align-items: center;
 	justify-content: space-around;
 	border: 1px solid black;
-	background: #4169E1;
 }
 header nav ul{
 	display: flex;
@@ -16,7 +15,7 @@ header nav ul li{
 }
 header nav ul li a{
 	text-decoration: none;
-	color: #FFDEAD;
+	color: #333;
 }
 header nav ul li a:hover{
 	color: yellow;
@@ -26,18 +25,24 @@ header img{
 }
 section#banner{
 	height: 350px;
-	background: #6495ED;
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_82pLSvlAaa4cCeMp7KNJEH7j8UmplyBIUQ&s");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 }
 section#noticias{
 	width: 1100px;
 	height: auto;
 	margin: 0 auto;
 }
+section#noticias ul{
+	display: flex;
+	flex-wrap:wrap;
+}
 section#noticias ul li{
 	list-style:none;
 	width: 350px;
 	height: 350px;
-	background: #FFDEAD;
 	margin: 5px;
 }
 section#noticias img{
@@ -47,6 +52,10 @@ section#noticias img{
 }
 section#noticias .categoria{
 	text-align: center;
+	background: #900;
+	color: #fff;
+	display: block;
+	padding: 5px 0;
 }
 section#noticias h2{
 	font-size: 35px;
@@ -54,20 +63,18 @@ section#noticias h2{
 	text-align: center;
 }
 section#noticias h3{
-	text-align: center;
+	text-align: center;	
 	font-size: 35px;
 	font-family: Arial;
 	margin: 25px 0;
 	text-transform: uppercase;
 }
-section#noticias ul{
-	display: flex;
-}
+
 section#noticias ul li a{
 	text-align: center;
 	font-size: 19px;
 	color: white;
-	background: #6495ED;
+	background: red;
 	display: block;
 	padding: 5px 0;
 }
@@ -76,5 +83,29 @@ section#noticias ul li a:hover{
 }
 section#noticias ul li p{
 	text-align: center;
-	margin:  15px 0;
+	margin: 15px 0;
+}
+section#projetos ul{
+	display:flex;
+	width: 1100px;
+	margin: 0 auto;
+}
+section#projetos ul li{
+	overflow: hidden;
+	height: 450px;
+	border: 1px solid black;
+	margin: 10px;
+	position: relative;
+	border-radius: 30px;
+
+}
+section#projetos ul li img{
+
+}
+section#projetos ul li h3{
+	position: absolute;
+	bottom: 30px;
+	background: blue;
+	color: #fff;
+	padding: 10px;
 }
